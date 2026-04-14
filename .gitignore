@@ -1,0 +1,21 @@
+# 虛擬環境
+venv/
+
+# 資料集（檔案過大）
+bdd100k_dataset/
+bdd100k/
+
+# 外部 clone 的訓練框架
+CyEDA/
+
+# Claude Code 內部設定
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 暫存與系統檔
+*.DS_Store
+Thumbs.db

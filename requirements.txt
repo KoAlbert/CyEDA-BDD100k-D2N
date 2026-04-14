@@ -1,0 +1,13 @@
+# PyTorch CUDA 版本須另行安裝，請先執行下方指令（擇一）：
+#
+# CUDA 12.1（推薦，驅動版本 >= 527）：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# CUDA 11.8（驅動版本較舊時使用）：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# 確認 CUDA 是否可用：
+#   python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+
+gdown
+opencv-python
